@@ -1,25 +1,34 @@
-.sesion{
+.addProduct{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 35vh;
-    margin: 20vh 0;
+    height: 70vh;
+    margin: 10vh 0;
 }
-.sesion__title{
+.addproduct__title{
     color: var(--green);
     font-family: var(--titulos);
     text-align: center;
     font-size: 1.7rem;
 }
-.sesion__input{
+.addProduct__label{
+    font-family: var(--titulos);
+    font-size: .8rem;
+    line-height: 1.5rem;
+}
+.addproduct__input{
     /* font-family: roboto, sans-serif; */
     width: 80vw;
     border: solid var(--green) .15rem;
     background: var(--baby-green);
 }
-.sesion__button{
+.addProduct__textArea{
+    height: 8rem;
+    padding-top: .7rem;
+}
+.addproduct__button{
     width: 80vw;
     background: var(--green);
     /* outline: var(--green); */

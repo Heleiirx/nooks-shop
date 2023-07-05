@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Iniciar Sesion | Nook's shop</title>
+        <title>Iniciar sesion| Nook's shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="assets/img/nooks-icon.svg">
@@ -18,8 +18,14 @@
         <header id="header"></header>
         <form action="" class="sesion">
             <h1 class="sesion__title">Iniciar Sesión</h1>
-            <input type="email" class="input sesion__input" placeholder="Ingresa tu correo electronico" required>
-            <input type="password" class="input sesion__input" placeholder="Ingresa tu contraseña" required>
+            <div class="input-container">
+                <input type="email" class="input sesion__input" placeholder="Ingresa tu correo electronico" required data-type="email">
+                <span class="input-message--error"></span>
+            </div>
+            <div class="input-container">
+                <input type="password" class="input sesion__input" placeholder="Ingresa tu contraseña" required data-type="password" pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$" title="Minimo 8 caracteres, al menos una letra, un número y un caracter especial">
+                <span class="input-message--error"></span>
+            </div>
             <button class="submit sesion__button">Entrar</button>
         </form>
         <footer id="footer"></footer>

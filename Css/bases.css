@@ -6,6 +6,13 @@ body{
     color: var(--green);
     font-family: var(--titulos);
 }
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container--invalid{
+    gap: 5rem;
+}
 .input{
     font-family: roboto, sans-serif;
     height: 2.5rem;
@@ -17,6 +24,18 @@ body{
         font-family: roboto, sans-serif;
         font-size: 1rem;
     }
+}
+.input--invalid{
+    border: solid rgb(255, 38, 38) .11rem;
+}
+.input-container--invalid .input-message{
+    display: none;
+}
+.input-message--error{
+    display: inline-block;
+    padding: .3rem 0 0 .5rem;
+    color: rgb(243, 31, 31);
+    font-family: roboto, sans-serif;
 }
 .submit{
     align-self: center;
