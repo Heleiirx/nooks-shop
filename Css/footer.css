@@ -48,22 +48,11 @@
 .contact__input{
     align-self: center;
     width: 80vw;
-    height: 2.5rem;
-    font-family: roboto, sans-serif;
     border: solid var(--baby-green) 0.15rem;
-    border-radius: 2rem;
-    outline: var(--green);
-    padding-left: 1rem;
     background: var(--green);
 }
 .contact__button{
-    align-self: center;
     width: 80vw;
-    height: 2.5rem;
-    font-family: roboto, sans-serif;
-    border: solid var(--green) 0.15rem;
-    border-radius: 2rem;
-    padding-left: 1rem;
     background: var(--baby-green);
 }
 

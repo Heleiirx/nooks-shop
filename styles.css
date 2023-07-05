@@ -11,11 +11,3 @@
     
     --titulos: 'nooks', sans-serif;
 }
-body{
-    background-color: #FAF4D2;
-}
-.not-style{
-    text-decoration: none;
-    color: var(--green);
-    font-family: var(--titulos);
-}
