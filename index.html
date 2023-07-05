@@ -11,20 +11,43 @@
         <link rel="stylesheet" href="Css/navbar.css">
         <link rel="stylesheet" href="Css/banner.css">
         <link rel="stylesheet" href="Css/footer.css">
+        <link rel="stylesheet" href="Css/products.css">
         <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     </head>
     <body>
         <header id="header"></header>
         <body>
-            <div class="banner">
-                <!-- <img src="assets/img/banner.png" alt="Banner descuentos" class="banner__image"> -->
-                <div class="banner__textos">
-                    <h1 class="banner__titulo">REBAJAS DE VERANO</h1>
-                    <p class="banner__texto">Aprovehcha hasta un 30% en articulos seleccionados</p>
-                    <button class="banner__button">Ir a descuentos</button>
+            <main>
+                <div class="banner">
+                    <!-- <img src="assets/img/banner.png" alt="Banner descuentos" class="banner__image"> -->
+                    <div class="banner__textos">
+                        <h1 class="banner__titulo">REBAJAS DE VERANO</h1>
+                        <p class="banner__texto">Aprovehcha hasta un 30% en articulos seleccionados</p>
+                        <button class="banner__button">Ir a descuentos</button>
+                    </div>
                 </div>
-            </div>
-        <footer id="footer"></footer>
+                <section class="products">
+                    <section class="products__section furniture">
+                        <div class="section-top">
+                            <h1 class="products__title">Muebles</h1>
+                            <a href="" class="not-style products__link">Ver todo &#10132;</a>
+                        </div>
+                        <div class="section-bottom">
+                            <div class="products__card">
+                                <div class="products__image-bg">
+                                    <img src="assets/img/apple-chair.webp" alt="" class="card__image">
+                                </div>
+                                <h1 class="card__title">Producto XYZ</h1>
+                                <h2 class="card__price">$20,000</h2>
+                                <a href="" class="not-style card__link">Ver producto</a>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="products__section clothes"></section>
+                    <section class="products__section music"></section>
+                </section>
+            </main>
+            <footer id="footer"></footer>
         </body>
         <script src="main.js"></script>
     </body>

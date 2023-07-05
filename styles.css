@@ -7,10 +7,15 @@
     --baby-green: #9DFFB0;
     --blue: #9FD8F6;
     --brown: #C48D3F;
-    --white: #FFFFFA;
+    --white: #ffffed;
     
     --titulos: 'nooks', sans-serif;
 }
 body{
     background-color: #FAF4D2;
+}
+.not-style{
+    text-decoration: none;
+    color: var(--green);
+    font-family: var(--titulos);
 }
