@@ -1,0 +1,41 @@
+.banner{
+    width: 100vw;
+    height: 30vh;
+    background: url(../assets/img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner__image{
+    width: 100vw;
+}
+.banner__textos{
+    width: 80vw;
+    height: 15vh;
+    padding: 3rem 0 0 2rem;
+}
+.banner__titulo{
+    font-family: var(--titulos);
+    font-size: 1.5rem;
+}
+.banner__texto{
+    position: relative;
+    font-family: roboto, sans-serif;
+    font-size: 1rem;
+    top: .5rem;
+}
+.banner__button{
+    font-family: var(--titulos);
+    font-size: .8rem;
+    position: relative;
+    top: 2rem;
+    background: var(--baby-green);
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 2rem;
+    border: none;
+
+    &:hover{
+        border: solid var(--green) .11rem;
+    }
+    
+}

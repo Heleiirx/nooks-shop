@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'nooks';
+    src: url(assets/fonts/Radhiumz.ttf);
+}
+:root{
+    --green: #4EA966;
+    --baby-green: #9DFFB0;
+    --blue: #9FD8F6;
+    --brown: #C48D3F;
+    --white: #FFFFFA;
+    
+    --titulos: 'nooks', sans-serif;
+}
+body{
+    background-color: #FAF4D2;
+}

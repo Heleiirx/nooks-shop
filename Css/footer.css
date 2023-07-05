@@ -1,0 +1,80 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+.footer__info{
+    width: 100vw;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: url(../assets/img/bg-contacto.png);
+}
+.info__navegation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.info__image{
+    width: 8.1rem;
+}
+.info__list{
+    font-family: var(--titulos);
+}
+.info__item{
+    line-height: 1.7rem;
+}
+
+.footer__contact{
+    font-family: var(--titulos);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact__title{
+    font-size: 1.7rem;
+}
+.contact__container{
+    display: flex;
+    flex-direction: column;
+}
+.contact__input{
+    align-self: center;
+    width: 80vw;
+    height: 2.5rem;
+    font-family: roboto, sans-serif;
+    border: solid var(--baby-green) 0.15rem;
+    border-radius: 2rem;
+    outline: var(--green);
+    padding-left: 1rem;
+    background: var(--green);
+}
+.contact__button{
+    align-self: center;
+    width: 80vw;
+    height: 2.5rem;
+    font-family: roboto, sans-serif;
+    border: solid var(--green) 0.15rem;
+    border-radius: 2rem;
+    padding-left: 1rem;
+    background: var(--baby-green);
+}
+
+.footer__credits{
+    font-size: .7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--titulos);
+    width: 70vw;
+    height: 7vh;
+}
