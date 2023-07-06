@@ -3,7 +3,7 @@ body{
 }
 .not-style{
     text-decoration: none;
-    color: var(--green);
+    /* color: var(--green); */
     font-family: var(--titulos);
 }
 .input-container{

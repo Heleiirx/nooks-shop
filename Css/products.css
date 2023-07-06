@@ -12,6 +12,7 @@
 .section-bottom{
     display: flex;
     gap: 5vw;
+    flex-wrap: wrap;
 }
 .products__title{
     font-family: var(--titulos);

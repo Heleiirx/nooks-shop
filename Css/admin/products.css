@@ -1,0 +1,15 @@
+.admin__icons--addProduct{
+    display: flex;
+    gap: .8rem;
+    position: absolute;
+    left: 27vw;
+}
+.admin__link{
+    padding: .2rem;
+    height: 2.5rem;
+    border-radius: 1.5rem;
+    background: var(--green);
+    width: 35vw;
+    color: black;
+    text-align: center;
+}
