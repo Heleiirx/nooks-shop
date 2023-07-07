@@ -3,7 +3,11 @@
     flex-direction: column;
     margin-top: 1rem;
 }
+.products__section{
+    margin-top: 5vh;
+}
 .section-top{
+    margin-bottom: 2vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,15 +15,20 @@
 }
 .section-bottom{
     display: flex;
-    gap: 5vw;
+    gap: 2vw;
     flex-wrap: wrap;
+    margin-left: 2vw;
 }
 .products__title{
     font-family: var(--titulos);
     font-size: 2rem;
     line-height: 3rem;
 }
+.products__link{
+    color: var(--green);
+}
 .products__card{
+    position: relative;
     box-sizing: border-box;
     width: 47vw;
     font-family: var(--titulos);
@@ -52,4 +61,29 @@
     font-size: 1rem;
     line-height: 1.2rem;
     color: var(--baby-green);
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .products__title{
+        font-size: 2.5rem;
+    }
+    .products__link{
+        color: var(--green);
+        font-size: 1.3rem;
+    }
+    .section-bottom{
+        gap: 1.5vw;
+    }
+    .products__card{
+        width: 23vw;
+        height: 41vw;
+    }
+    .products__image-bg{
+        height: 23vw;
+        width: 20vw;
+        justify-content: center;
+    }
+    .card__image{
+        width: 25vw;
+    }
 }

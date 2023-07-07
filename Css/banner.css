@@ -39,3 +39,29 @@
     }
     
 }
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .banner__textos{
+        width: 100vw;
+        height: 15vh;
+        padding: 5rem 0 0 4rem;
+    }
+    .banner__titulo{
+        font-size: 3rem;
+    }
+    .banner__texto{
+        width: 70vw;
+        font-size: 1.8rem;
+        top: 1rem;
+    }
+    .banner__button{
+        font-size: 1.1rem;
+        top: 2.9rem;
+        background: var(--baby-green);
+        height: 3rem;
+        width: 13rem;
+        border-radius: 2rem;
+      
+    }
+}

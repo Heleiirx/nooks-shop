@@ -6,6 +6,8 @@
     align-items: center;
     background-color: var(--baby-green);
     justify-content: space-between;
+    /* position: fixed;
+    z-index: 100; */
 }
 .navegation__image{
     height: 5vh;
@@ -71,4 +73,12 @@
 }
 .navegation__sesion{
     height: 5vh;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .navegation__left{
+        width: 75vw;
+        justify-content: space-between;
+        padding-right: .7rem;
+    }
 }

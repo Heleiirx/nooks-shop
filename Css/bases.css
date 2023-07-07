@@ -1,9 +1,9 @@
 body{
     background-color: #FAF4D2;
+    overflow-x: hidden;
 }
 .not-style{
     text-decoration: none;
-    /* color: var(--green); */
     font-family: var(--titulos);
 }
 .input-container{
@@ -15,7 +15,7 @@ body{
 }
 .input{
     font-family: roboto, sans-serif;
-    height: 2.5rem;
+    /* height: 2.5rem; */
     border-radius: 2rem;
     outline: var(--green);
     padding-left: 1rem;
