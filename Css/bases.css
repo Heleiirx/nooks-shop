@@ -45,3 +45,11 @@ body{
     border-radius: 2rem;
     padding-left: 1rem;
 }
+@media screen and (min-width:768px) and (max-width:1023px) {
+   .input{
+    height: 5vh;
+   }
+    .submit{
+        height: 5vh;
+    }
+}

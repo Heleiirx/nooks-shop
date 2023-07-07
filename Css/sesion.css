@@ -16,11 +16,25 @@
 .sesion__input{
     /* font-family: roboto, sans-serif; */
     width: 80vw;
+    height: 2.5rem;
     border: solid var(--green) .15rem;
     background: var(--baby-green);
 }
 .sesion__button{
     width: 80vw;
     background: var(--green);
+    height: 2.5rem;
     /* outline: var(--green); */
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .sesion__title{
+        font-size: 3rem;
+    }
+    .sesion__input{
+        height: 5vh;
+    }
+    .sesion__button{
+        height: 10vh;
+    }
 }

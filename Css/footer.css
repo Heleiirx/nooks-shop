@@ -93,6 +93,7 @@
     .contact__button{
         width: 55vw;
         height: 5vh;
+        font-size: 1.2rem;
     }
     .footer__contact{
         font-size: 1.5rem;

@@ -5,6 +5,9 @@
     left: 27vw;
 }
 .admin__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: .2rem;
     height: 2.5rem;
     border-radius: 1.5rem;
@@ -12,4 +15,10 @@
     width: 35vw;
     color: black;
     text-align: center;
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .admin__icons--addProduct{
+        left: 12vw;
+    }
 }
