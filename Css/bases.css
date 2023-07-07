@@ -53,3 +53,8 @@ body{
         height: 5vh;
     }
 }
+@media screen and (min-width: 1024px){
+    .submit{
+        height: 5vh;
+    }
+}

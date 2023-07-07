@@ -34,9 +34,9 @@
     border-radius: 2rem;
     border: none;
 
-    &:hover{
+    /* &:hover{
         border: solid var(--green) .11rem;
-    }
+    } */
     
 }
 
@@ -62,6 +62,38 @@
         height: 3rem;
         width: 13rem;
         border-radius: 2rem;
+      
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .banner{
+        height: 70vh;
+        background-position: bottom -7rem right 0px;
+    }
+    .banner__textos{
+        width: 100vw;
+        height: 15vh;
+        padding: 5rem 0 0 4rem;
+    }
+    .banner__titulo{
+        font-size: 4rem;
+    }
+    .banner__texto{
+        width: 50vw;
+        font-size: 2rem;
+        top: 2rem;
+    }
+    .banner__button{
+        font-size: 1.7rem;
+        top: 4rem;
+        background: var(--baby-green);
+        height: 4rem;
+        width: 20rem;
+        border-radius: 4rem;
+        &:hover{
+            box-shadow: 15px 15px 18px .5px var(--green);
+        }
       
     }
 }

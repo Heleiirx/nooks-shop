@@ -87,3 +87,32 @@
         width: 25vw;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .products{
+        margin: 1rem 0 0 1.2vw;
+    }
+    .products__title{
+        font-size: 2.5rem;
+    }
+    .products__link{
+        color: var(--green);
+        font-size: 1.3rem;
+    }
+    .section-bottom{
+        margin: 0;
+        gap: 1.1vw;
+    }
+    .products__card{
+        width: calc(90vw / 8);
+        height: 20rem;
+    }
+    .products__image-bg{
+        height: 13rem;
+        width: calc(78vw /8);
+        justify-content: center;
+    }
+    .card__image{
+        width: 25vw;
+    }
+}

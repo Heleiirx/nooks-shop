@@ -99,3 +99,40 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .footer__info{
+        flex-direction: row;
+    }
+    .info__navegation{
+        flex-direction: row;
+        width: 40vw;
+    }
+    .info__image{
+        width: 15vw;
+        margin-right: 2rem;
+    }
+    .info__item{
+        font-size: 1.5rem;
+        line-height: 3.5rem;
+    }
+    .footer__contact{
+        height: 50vh;
+    }
+    .contact__title{
+        font-size: 3rem;
+    }
+    .contact__label{
+        font-size: 1.5rem;
+    }
+    .contact__input{
+        margin-top: .7rem;
+        width: 30vw;
+        height: 5vh;
+    }
+    .contact__button{
+        font-size: 1.5rem;
+        width: 30vw;
+        height: 10vh;
+    }
+}

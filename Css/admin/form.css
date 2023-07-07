@@ -33,3 +33,26 @@
     background: var(--green);
     /* outline: var(--green); */
 }
+
+@media screen and (min-width: 1024px){
+    .addproduct__title{
+        font-size: 2.7rem;
+        margin-bottom: 2rem;
+    }
+    .addProduct__label{
+        font-size: 1.22rem;
+        line-height: 2rem;
+    }
+    .addproduct__input{
+        width: 50vw;
+        height: 5vh;
+    }
+    .addProduct__textArea{
+        height: 13vh;
+        padding-top: .7rem;
+    }
+    .addproduct__button{
+        width: 50vw;
+        background: var(--green);
+    }
+}

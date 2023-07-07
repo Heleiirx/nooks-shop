@@ -22,3 +22,9 @@
         left: 12vw;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .admin__icons--addProduct{
+        left: 7vw;
+    }
+}
