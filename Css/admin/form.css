@@ -4,8 +4,8 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 70vh;
-    margin: 10vh 0;
+    height: 90vh;
+    margin: 5vh 0;
 }
 .addproduct__title{
     color: var(--green);

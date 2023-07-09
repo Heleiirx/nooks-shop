@@ -26,9 +26,17 @@
 }
 .products__link{
     color: var(--green);
+    
+    &:hover{
+        text-decoration: underline;
+    }
 }
 .products__card{
+    padding: .3rem 0;
+    display: flex;
+    flex-direction: column;
     position: relative;
+    justify-content: space-around;
     box-sizing: border-box;
     width: 47vw;
     font-family: var(--titulos);
@@ -36,7 +44,7 @@
     text-align: center;
     border: solid var(--green) .15rem;
     border-radius: 2rem;
-    padding: 1rem .7rem;
+    /* padding: 1rem .7rem; */
     background-color: var(--green);
 }
 .products__image-bg{
@@ -58,9 +66,18 @@
     line-height: 1.1rem;
 }
 .card__link{
-    font-size: 1rem;
-    line-height: 1.2rem;
-    color: var(--baby-green);
+    text-decoration: none;
+    color: black;
+    background: var(--baby-green);
+    font-family: var(--titulos);
+    width: 8rem;
+    border-radius: 2.5rem;
+    margin-bottom: 0.5rem;
+    transition: .5s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -105,14 +122,23 @@
     }
     .products__card{
         width: calc(90vw / 8);
-        height: 20rem;
+        height: 19rem;
+        /* padding: .8rem .5rem; */
+
+        &:hover{
+            box-shadow: .5rem .5rem 18px 1px var(--green);
+        }
+      
     }
     .products__image-bg{
-        height: 13rem;
+        height: 9rem;
         width: calc(78vw /8);
         justify-content: center;
     }
     .card__image{
-        width: 25vw;
+        width: 9rem;
+    }
+    .card__price{
+        margin: .4rem 0;
     }
 }

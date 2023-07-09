@@ -40,15 +40,16 @@
 }
 
 @media screen and (min-width: 1024px){
+    .sesion{
+        height: 60vh;
+    }
     .sesion__title{
         font-size: 3rem;
     }
     .sesion__input{
-        height: 5vh;
         width: 50vw;
     }
     .sesion__button{
-        height: 10vh;
         width: 50vw;
     }
 }

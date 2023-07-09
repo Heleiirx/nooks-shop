@@ -92,7 +92,7 @@
         width: 20rem;
         border-radius: 4rem;
         &:hover{
-            box-shadow: 15px 15px 18px .5px var(--green);
+            box-shadow: .5rem .5rem 18px 1px var(--green);
         }
       
     }

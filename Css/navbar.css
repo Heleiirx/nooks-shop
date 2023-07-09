@@ -98,11 +98,14 @@
         height: 7vh;
         margin: 1rem;
     }
+    .navegation__left{
+        margin-right: 2rem;
+    }
     .navegation__search{
         height: 7vh;
 
         &:hover{
-            box-shadow: 15px 15px 18px 1px var(--green);
+            box-shadow: .3rem .3rem 18px 1px var(--green);
         }
     }
     .navegation__input{
@@ -115,6 +118,11 @@
     }
     .navegation__button{
         height: 7vh;
+        background: none;
+        border-radius: 50%;
+        &:hover{
+            box-shadow: .3rem .3rem 18px 1px var(--green);
+        } 
     }
     .navegation__sesion{
         height: 7vh;
