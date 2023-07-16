@@ -20,16 +20,12 @@ inputs.forEach(input =>{
 
 function valida(input){
     const tipoDeInput = input.dataset.type;
-    // if(validadores[tipoDeInput]){
-    //     validadores[tipoDeInput](input);
-    // }
-    
     if (input.validity.valid){
         input.parentElement.classList.remove("input-container--invalid");
-        input.parentElement.querySelector(".message-error").innerHTML = "";
+        input.parentElement.querySelector(".message--error").innerHTML = "";
     }else{
         input.parentElement.classList.add("input-container--invalid");
-        input.parentElement.querySelector(".message--error").innerHTML = mostrarMensajeDeErrror(tipoDeInput, input);
+        input.parentElement.querySelector(".message--error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
     }
 
 }
@@ -65,22 +61,18 @@ const mensajesDeError = {
     },
     precio: {
         valueMissing: "Agrega un precio"
-    }
-
+    },
 }
 
-function mostrarMensajeDeErrror(tipoDeInput, input){
+function mostrarMensajeDeError(tipoDeInput, input){
     let mensaje ='';
     tipoDeErrores.forEach((error) => {
         if (input.validity[error]){
             console.log(tipoDeInput, error);
             console.log(input.validity[error]);
-            // console.log(mensajesDeError[tipoDeInput][error]);
+            console.log(mensajesDeError[tipoDeInput][error]);
             mensaje = mensajesDeError[tipoDeInput][error];
         }
     })
     return mensaje;
  }
-// const validadores = {
-//     nacimiento: (input) => validarNacimiento(input),
-// };

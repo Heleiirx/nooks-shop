@@ -45,10 +45,10 @@
 .contact__title{
     font-size: 1.7rem;
 }
-.contact__container{
+/* .contact__container{
     display: flex;
     flex-direction: column;
-}
+} */
 .contact__input{
     align-self: center;
     width: 80vw;

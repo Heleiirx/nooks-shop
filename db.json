@@ -1,0 +1,162 @@
+[
+    {
+      "product": [
+        {
+          "id": 0,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 1,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 2,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 3,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 4,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 5,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 6,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 7,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 8,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 9,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 10,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 11,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 12,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 13,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 14,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 15,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 16,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        },
+        {
+          "id": 17,
+          "name": "",
+          "price": "",
+          "img": "",
+          "category": "",
+          "description": ""
+        }
+      ],
+      "profile": [
+        {
+          "id": 10294,
+          "name": "Itzel",
+          "email": "itzel@mail.com"
+        },
+        {
+            "id": 200894,
+            "name": "Admin",
+            "email": "admin@mail.com"
+          }
+      ]
+    }
+  ]

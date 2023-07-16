@@ -13,13 +13,15 @@
         </section>
         <section class="footer__contact">
             <h1 class="contact__title">Contactanos</h1>
-            <div class="contact__container">
+            <div class="input-container">
                 <label for="" class="contact__label">Nombre</label>
-                <input type="text" class="input contact__input" data-type="nombre">
+                <input type="text" class="input contact__input" data-type="nombre" minlength="10" maxlength="100">
+                <span class="message--error"></span>
             </div>
-            <div class="contact__container">
+            <div class="input-container">
                 <label for="" class="contact__label">Mensaje</label>
-                <input type="text" class="input contact__input" data-type="mensaje" maxlength="255">
+                <input type="text" class="input contact__input" data-type="mensaje" minlength="30" maxlength="400">
+                <span class="message--error"></span>
             </div>
             <button class="submit contact__button" type="submit">Enviar mensaje</button>
         </section>
