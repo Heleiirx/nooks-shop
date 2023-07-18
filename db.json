@@ -2,147 +2,27 @@
       "product": [
         {
           "id": 0,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
+          "item": "Silla sirena",
+          "price": 11140,
+          "img": "assets/img/furn-.webp",
+          "category": "Muebles",
+          "description": "Silla de sirena hecha con productos y materiales maritimos, por el reconocido diseñador Pascal"
         },
         {
           "id": 1,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
+          "item": "Vestido de sandia",
+          "price": 7350,
+          "img": "assets/img/clo-watermelon-dress.png",
+          "category": "Ropa",
+          "description": "Vestido inspirado en la canción del famoso KK styles"
         },
         {
           "id": 2,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 3,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 4,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 5,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 6,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 7,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 8,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 9,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 10,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 11,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 12,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 13,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 14,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 15,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 16,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
-        },
-        {
-          "id": 17,
-          "name": "",
-          "price": "",
-          "img": "",
-          "category": "",
-          "description": ""
+          "item": "Bubblegum",
+          "price": 1200,
+          "img": "assets/img/kk-bubblegum.png",
+          "category": "Musica",
+          "description": "Primer éxito del famoso y clasico cantante KK Slider"
         }
       ],
       "profile": [
