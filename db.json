@@ -1,40 +1,64 @@
+{
+  "product": [
     {
-      "product": [
-        {
-          "id": 0,
-          "item": "Silla sirena",
-          "price": 11140,
-          "img": "assets/img/furn-.webp",
-          "category": "Muebles",
-          "description": "Silla de sirena hecha con productos y materiales maritimos, por el reconocido diseñador Pascal"
-        },
-        {
-          "id": 1,
-          "item": "Vestido de sandia",
-          "price": 7350,
-          "img": "assets/img/clo-watermelon-dress.png",
-          "category": "Ropa",
-          "description": "Vestido inspirado en la canción del famoso KK styles"
-        },
-        {
-          "id": 2,
-          "item": "Bubblegum",
-          "price": 1200,
-          "img": "assets/img/kk-bubblegum.png",
-          "category": "Musica",
-          "description": "Primer éxito del famoso y clasico cantante KK Slider"
-        }
-      ],
-      "profile": [
-        {
-          "id": 10294,
-          "name": "Itzel",
-          "email": "itzel@mail.com"
-        },
-        {
-            "id": 200894,
-            "name": "Admin",
-            "email": "admin@mail.com"
-          }
-      ]
+      "id": 0,
+      "item": "Silla sirena",
+      "price": 11140,
+      "img": "assets/img/furn-.webp",
+      "category": "Muebles",
+      "description": "Silla de sirena hecha con productos y materiales maritimos, por el reconocido diseñador Pascal"
+    },
+    {
+      "id": 1,
+      "item": "Vestido de sandia",
+      "price": 7350,
+      "img": "assets/img/clo-watermelon-dress.png",
+      "category": "Ropa",
+      "description": "Vestido inspirado en la canción del famoso KK styles"
+    },
+    {
+      "id": 2,
+      "item": "Bubblegum",
+      "price": 1200,
+      "img": "assets/img/kk-bubblegum.png",
+      "category": "Musica",
+      "description": "Primer éxito del famoso y clasico cantante KK Slider"
+    },
+    {
+      "img": "assets/img/furn-apple-chair.webp",
+      "category": "Muebles",
+      "item": "Silla de manzana",
+      "price": "45800",
+      "description": "Silla de manzana",
+      "id": "05920b0a-fe5e-46df-bf4c-81c369dfb2ee"
+    },
+    {
+      "img": "assets/img/furn-garden-chair.webp",
+      "category": "",
+      "item": "Silla de jardin",
+      "price": "9600",
+      "description": "Silla de jardin rustica",
+      "id": "90231bca-b426-4d4f-be99-4ef8462cc771"
+    },
+    {
+      "img": "assets/img/furn-apple-chair.webp",
+      "category": "Muebles",
+      "item": "Olaaaaaaaaaa",
+      "price": "2321540",
+      "description": "Ola de saludo, no de mar",
+      "id": "cd4d716f-4ea7-422e-b7b2-42470f2d238f"
     }
+  ],
+  "profile": [
+    {
+      "id": 10294,
+      "name": "Itzel",
+      "email": "itzel@mail.com"
+    },
+    {
+      "id": 200894,
+      "name": "Admin",
+      "email": "admin@mail.com"
+    }
+  ]
+}
