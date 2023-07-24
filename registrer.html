@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Iniciar sesion| Nook's shop</title>
+        <title>Registrarte| Nook's shop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="shortcut icon" href="assets/img/nooks-icon.svg">
@@ -16,21 +16,26 @@
     </head>
     <body>
         <header id="header"></header>
-        <form action="" class="sesion" data-form-session>
-            <h1 class="sesion__title">Iniciar Sesión</h1>
+        <form action="" class="sesion" data-form-registrer>
+            <h1 class="sesion__title">Registrate</h1>
+            <div class="input-container">
+                <input type="text" class="input sesion__input" placeholder="Ingresa tu nombre" required data-type="text" data-form-name>
+                <span class="message--error"></span>
+            </div>
             <div class="input-container">
                 <input type="email" class="input sesion__input" placeholder="Ingresa tu correo electronico" required data-type="email" data-form-email>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
-                <input type="password" class="input sesion__input" placeholder="Ingresa tu contraseña" required data-type="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Minimo 8 caracteres, al menos una letra y un número" data-form-password>
+                <input type="password" class="input sesion__input" placeholder="Ingresa tu contraseña" required data-type="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Minimo 8 caracteres, al menos una letra mayuscula, una letra minuscula y un número" data-form-password>
                 <span class="message--error"></span>
             </div>
-            <button class="submit sesion__button">Entrar</button>
-            <p>Aun no tienes una cuenta? <a href="registrer.html">Registrate aqui</a></p>
+            <button class="submit sesion__button">Registrarte</button>
+            <p>Ya tienes ceunta? <a href="sesion.html">Inicia sesion</a></p>
         </form>
         <footer id="footer"></footer>
-        <script type="module" src="js/user-validation.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.0.0/uuid.min.js" integrity="sha512-9P4xja2i2wuRkoDisPli55kwG6aR3tuRYBdMDXvY4rthj8/hu9oZMP/NbPv92tzWnOGZFBSC74Y/67lQSKoaZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="js/user-register.js"></script>
         <script src="main.js"></script>
     </body>
 </html>

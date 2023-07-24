@@ -13,12 +13,13 @@ $(function(){
 const inputs = document.querySelectorAll("input");
 
 inputs.forEach(input =>{
-    input.addEventListener("blur", (input) => {
-        valida(input.target);
+    input.addEventListener("blur", (event) => {
+        valida(event.target);
     })
 })
 
 function valida(input){
+    console.log("Inicia valida");
     const tipoDeInput = input.dataset.type;
     if (input.validity.valid){
         input.parentElement.classList.remove("input-container--invalid");
@@ -47,11 +48,10 @@ const mensajesDeError = {
     },
     password: {
         valueMissing: "Este campo no puede estar vacio",
-        patternMismatch: "Minimo 8 caracteres, al menos una letra, un número y un caracter especial"
+        patternMismatch: "Minimo 8 caracteres, al menos una letra mayuscula, una letra minuscula y un número"
     },
     url: {
         valueMissing: "La url no puede estar vacia",
-        typeMismatch: "Agrega una URL válida"
     },
     categoria: {
         valueMissing: "Agrega una categoria"
@@ -65,12 +65,10 @@ const mensajesDeError = {
 }
 
 function mostrarMensajeDeError(tipoDeInput, input){
+    console.log('inicia mostrarMensajeDeError');
     let mensaje ='';
     tipoDeErrores.forEach((error) => {
         if (input.validity[error]){
-            console.log(tipoDeInput, error);
-            console.log(input.validity[error]);
-            console.log(mensajesDeError[tipoDeInput][error]);
             mensaje = mensajesDeError[tipoDeInput][error];
         }
     })

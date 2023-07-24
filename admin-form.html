@@ -18,7 +18,7 @@
     <body>
         <header>
             <nav class="navegation">
-                <a href="index.html" class="navegation__icon"><img class="navegation__image" src="assets/img/icon-nooks.svg" alt="Icono de Nooks's"></a>
+                <a href="admin-products.html" class="navegation__icon"><img class="navegation__image" src="assets/img/icon-nooks.svg" alt="Icono de Nooks's"></a>
                 <div class="navegation__left">
                     <div class="navegation__search">
                         <input class="navegation__input" type="search">
@@ -36,14 +36,14 @@
             <h1 class="addproduct__title">Agregar producto</h1>
             <div class="input-container">
                 <label class="addProduct__label" for="url">URL de la imagen</label>
-                <input type="text" name="url" class="input addproduct__input" placeholder="assets/img/furn-apple-chair.png" required data-type="text" data-input-img>
+                <input type="text" name="url" class="input addproduct__input" placeholder="assets/img/furn-apple-chair.png" required data-type="url" data-input-img>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
                 <label class="addProduct__label" for="categoria">Categoria del producto</label>
                 <!-- <input type="text" name="categoria" class="input addproduct__input" placeholder="Ropa" required data-type="categoria" data-input-category> -->
-                <select class="input addproduct__input name="categoria" id="" data-input-category>
-                    <option value=""></option>
+                <select class="input addproduct__input" name="categoria" data-type="categoria" id="" data-input-category>
+                    <option value="null"></option>
                     <option value="Muebles">Muebles</option>
                     <option value="Ropa">Ropa</option>
                     <option value="Musica">Musica</option>

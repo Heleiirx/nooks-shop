@@ -51,14 +51,67 @@
   ],
   "profile": [
     {
-      "id": 10294,
-      "name": "Itzel",
-      "email": "itzel@mail.com"
+      "clientName": "Itzel",
+      "email": "itzel@mail.com",
+      "password": "Bokuto04",
+      "id": 100294,
+      "admin": true
     },
     {
+      "clientName": "Heleir",
+      "email": "admin@mail.com",
+      "password": "Admin01",
       "id": 200894,
-      "name": "Admin",
-      "email": "admin@mail.com"
+      "admin": true
+    },
+    {
+      "clientName": "Heleir",
+      "email": "hola@mail.com",
+      "password": "Holaaaa123",
+      "id": "77407d72-1228-4592-8257-e4433dc66b53",
+      "admin": false
+    },
+    {
+      "clientName": "Heleir",
+      "email": "heleir@mail.com",
+      "password": "Holaaa04",
+      "id": "9408ed4e-46a3-4a7a-ad64-ef1557e0362f",
+      "admin": false
+    },
+    {
+      "clientName": "Paco",
+      "email": "paco@mail.com",
+      "password": "Holaaa123",
+      "id": "84d68e26-89ff-42ef-a23c-07a715019d53",
+      "admin": false
+    },
+    {
+      "clientName": "Hola",
+      "email": "hola@mail.com",
+      "password": "Gola123456",
+      "id": "4a35e907-75fd-4af2-ace3-6849c8f47773",
+      "admin": false
+    },
+    {
+      "clientName": "Juan",
+      "email": "juanperez@mail.com",
+      "password": "Juan123456",
+      "id": "1066bdae-40f6-43d9-8300-72572daa40a5",
+      "admin": false
+    },
+    {
+      "clientName": "Jack",
+      "email": "jack@mail.com",
+      "password": "Kitty123456",
+      "id": "b09d4677-7a97-4ed7-9b27-e0a58797c13b",
+      "admin": true
+    },
+    {
+      "clientName": "Miaul",
+      "email": "miaul@mail.com",
+      "password": "Miawww987654",
+      "id": "b783711e-7626-41d3-bba9-e11e912edf58",
+      "admin": true
     }
   ]
 }
