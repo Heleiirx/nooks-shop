@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Iniciar Sesion | Nook's shop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="shortcut icon" href="assets/img/nooks-icon.svg">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="Css/reset.css">
+        <link rel="stylesheet" href="Css/navbar.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="Css/sesion.css">
+        <link rel="stylesheet" href="Css/footer.css">
+        <link rel="stylesheet" href="Css/bases.css">
+        <link rel="stylesheet" href="Css/admin/form.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="navegation">
+                <a href="admin-products.html" class="navegation__icon"><img class="navegation__image" src="assets/img/icon-nooks.svg" alt="Icono de Nooks's"></a>
+                <div class="navegation__left">
+                    <div class="navegation__search">
+                        <input class="navegation__input" type="search">
+                        <div class="button__lens" id="inputSearch">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="navegation__lens bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#" class="navegation__button"><img class="navegation__sesion" src="assets/img/icon-admin.svg" alt=""></a>
+                </div>
+            </nav>
+        </header>
+        <form action="" class="addProduct" data-form-addProduct>
+            <h1 class="addproduct__title">Editar producto</h1>
+            <div class="input-container">
+                <label class="addProduct__label" for="url">URL de la imagen</label>
+                <input type="text" name="url" class="input addproduct__input" placeholder="assets/img/furn-apple-chair.png" required data-type="url" data-input-img>
+                <span class="message--error"></span>
+            </div>
+            <div class="input-container">
+                <label class="addProduct__label" for="categoria">Categoria del producto</label>
+                <!-- <input type="text" name="categoria" class="input addproduct__input" placeholder="Ropa" required data-type="categoria" data-input-category> -->
+                <select class="input addproduct__input" name="categoria" data-type="categoria" id="" data-input-category>
+                    <option value="null"></option>
+                    <option value="Muebles">Muebles</option>
+                    <option value="Ropa">Ropa</option>
+                    <option value="Musica">Musica</option>
+                </select>
+                <span class="message--error"></span>
+            </div>
+            <div class="input-container">
+                <label class="addProduct__label" for="producto">Nombre del producto</label>
+                <input type="text" name="producto" class="input addproduct__input" placeholder="Mesa" required data-type="producto" data-input-item>
+                <span class="message--error"></span>
+            </div>
+            <div class="input-container">
+                <label class="addProduct__label" for="precio">Precio del producto</label>
+                <input type="number" name="precio" class="input addproduct__input" placeholder="30,000" required data-type="precio" data-input-price>
+                <span class="message--error"></span>
+            </div>
+            <div class="input-container">
+                <textarea name="descripcion producto" id="" cols="30" rows="10" class="input addproduct__input addProduct__textArea" placeholder="Descripcion del producto" data-input-description></textarea>
+            </div>
+            <button class="submit addproduct__button">Guardar cambios</button>
+        </form>
+        <footer id="footer"></footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.0.0/uuid.min.js" integrity="sha512-9P4xja2i2wuRkoDisPli55kwG6aR3tuRYBdMDXvY4rthj8/hu9oZMP/NbPv92tzWnOGZFBSC74Y/67lQSKoaZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script type="module" src="js/add-product.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

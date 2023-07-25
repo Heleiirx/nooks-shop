@@ -1,7 +1,7 @@
 //---------------------------------------------------------------------------------------------------------------------------------------
 //----------------------------------------------Peticiones info de productos-------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
-const products = (category) => fetch(`http://localhost:3000/product?category=${category}`).then(response => response.json());
+const products = (category) => fetch(`http://localhost:3000/product?category=${category}`).then(products => products.json());
 
 const createProduct = (img, category, item, price, description) => {
     fetch(`http://localhost:3000/product`, {
@@ -13,6 +13,12 @@ const createProduct = (img, category, item, price, description) => {
     })
 }
 
+const deleteProduct = (id) => {
+    return fetch(`http://localhost:3000/product/${id}`, {
+        method: "DELETE"
+    }).then(response => response.json());
+
+}
 
 //---------------------------------------------------------------------------------------------------------------------------------------
 //-----------------------------------------------Peticiones info de clientes-------------------------------------------------------------
@@ -47,4 +53,5 @@ export const jsonInfo = {
     clients,
     createClient,
     createAdmin,
+    deleteProduct
 }
