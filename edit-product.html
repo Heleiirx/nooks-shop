@@ -32,17 +32,17 @@
                 </div>
             </nav>
         </header>
-        <form action="" class="addProduct" data-form-addProduct>
+        <form action="" class="addProduct" data-form-editProduct>
             <h1 class="addproduct__title">Editar producto</h1>
             <div class="input-container">
                 <label class="addProduct__label" for="url">URL de la imagen</label>
-                <input type="text" name="url" class="input addproduct__input" placeholder="assets/img/furn-apple-chair.png" required data-type="url" data-input-img>
+                <input type="text" id="url" name="url" class="input addproduct__input" placeholder="assets/img/furn-apple-chair.png" required data-type="url" data-input-img>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
                 <label class="addProduct__label" for="categoria">Categoria del producto</label>
                 <!-- <input type="text" name="categoria" class="input addproduct__input" placeholder="Ropa" required data-type="categoria" data-input-category> -->
-                <select class="input addproduct__input" name="categoria" data-type="categoria" id="" data-input-category>
+                <select class="input addproduct__input" name="categoria" data-type="categoria" id="categoria" data-input-category>
                     <option value="null"></option>
                     <option value="Muebles">Muebles</option>
                     <option value="Ropa">Ropa</option>
@@ -52,12 +52,12 @@
             </div>
             <div class="input-container">
                 <label class="addProduct__label" for="producto">Nombre del producto</label>
-                <input type="text" name="producto" class="input addproduct__input" placeholder="Mesa" required data-type="producto" data-input-item>
+                <input type="text" id="producto" name="producto" class="input addproduct__input" placeholder="Mesa" required data-type="producto" data-input-item>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
                 <label class="addProduct__label" for="precio">Precio del producto</label>
-                <input type="number" name="precio" class="input addproduct__input" placeholder="30,000" required data-type="precio" data-input-price>
+                <input type="number" id="precio" name="precio" class="input addproduct__input" placeholder="30,000" required data-type="precio" data-input-price>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
@@ -67,7 +67,8 @@
         </form>
         <footer id="footer"></footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.0.0/uuid.min.js" integrity="sha512-9P4xja2i2wuRkoDisPli55kwG6aR3tuRYBdMDXvY4rthj8/hu9oZMP/NbPv92tzWnOGZFBSC74Y/67lQSKoaZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script type="module" src="js/add-product.js"></script>
+        <!-- <script type="module" src="js/add-product.js"></script> -->
+        <script type="module" src="js/admin-editProducts.js"></script>
         <script src="main.js"></script>
     </body>
 </html>
