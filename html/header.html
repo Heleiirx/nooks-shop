@@ -3,14 +3,15 @@
         <a href="index.html" class="navegation__icon"><img class="navegation__image" src="assets/img/icon-nooks.svg" alt="Icono de Nooks's"></a>
         <div class="navegation__left">
             <div class="navegation__search">
-                <input class="navegation__input" type="search" placeholder="¿Qué quieres buscar?">
-                <div class="button__lens" id="inputSearch">
+                <input class="navegation__input" type="search" placeholder="¿Qué quieres buscar?" data-input-search>
+                <button class="button__lens" type="submit" id="inputSearch" data-button-search>
                     <svg xmlns="http://www.w3.org/2000/svg" class="navegation__lens bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                     </svg>
-                </div>
+                </button>
             </div>
             <a href="sesion.html" class="navegation__button"><img class="navegation__sesion" src="assets/img/icon-session.svg" alt=""></a>
         </div>
     </nav>
+    <script type="module" src="../js/searchBar.js"></script>
 </header>

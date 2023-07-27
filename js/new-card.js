@@ -1,7 +1,7 @@
 import { jsonInfo } from "./client-server.js";
 
 
-const createCard = (item, price, img) => {
+export const createCard = (item, price, img) => {
     const card = document.createElement("div");
     card.classList.add("products__card");
     const content = `<div class="products__image-bg">

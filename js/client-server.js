@@ -32,6 +32,10 @@ const updateProduct = ( id, img, category, item, price, description ) => {
     }).then( respuesta => respuesta).catch(err => console.log(err));
 }
 
+const searchProduct = (product) => {
+    return fetch(`http://localhost:3000/product?q=${product}`).then(products => products.json());
+}
+
 //---------------------------------------------------------------------------------------------------------------------------------------
 //-----------------------------------------------Peticiones info de clientes-------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
@@ -67,5 +71,6 @@ export const jsonInfo = {
     createAdmin,
     deleteProduct,
     infoProduct,
-    updateProduct
+    updateProduct,
+    searchProduct
 }
