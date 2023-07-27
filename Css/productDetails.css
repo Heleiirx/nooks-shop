@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+}
+.productDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productDetails__right{
+    width: 90vw;
+}
+.productDetails__title{
+    font-family: var(--titulos);
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.productDetails__price{
+    font-family: var(--titulos);
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.productDetails__description{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.3rem;
+}
+.realtedProducts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.relatedProducts__title{
+    font-family: var(--titulos);
+    font-size: 1.8rem;
+    line-height: 2rem;
+    width: 90vw;
+}
+.relatedProducts__content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2vh;
+    gap: 3vw;
+}
+.card{
+    width: 42vw;
+    height: 15rem;
+    background-color: var(--green);
+}
