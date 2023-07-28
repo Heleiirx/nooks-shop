@@ -1,15 +1,24 @@
+.backgroundModal{
+    position: absolute;
+    background-color: rgba(0, 0, 0, .6);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .modal{
+    box-sizing: border-box;
     position: fixed;
     top: 30vh;
-    left: 2rem;
+    left: 10%;
     z-index: 100;
     align-self: center;
-    justify-self: center;
     background-color: var(--baby-green);
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 17rem;
     width: 80vw;
     border-radius: 3rem;
     gap: 2rem;
@@ -17,7 +26,7 @@
     box-shadow: 5px 5px 10px 1px var(--green);
 }
 .modal__image{
-    width: 50vw;
+    width: 60vw;
     position: fixed;
     bottom: 60vh;
     &:hover{
@@ -42,9 +51,34 @@
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-
+    .modal{
+        height: 25rem;
+    }
+    .modal__image{
+        bottom: 57vh;
+    }
+    .modal__text{
+        width: 70vw;
+    }
+    .modal__link{
+        width: 65vw;
+        height: 5rem;
+        border-radius: 3rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-
+    .modal{
+        left: 25%;
+        width: 35rem;
+        height: 20rem;
+        padding-top: 12rem;
+    }
+    .modal__image{
+        width: 30rem;
+        bottom: 43vh;
+    }
+    .modal__text{
+        width: 33rem;
+    }
 }
