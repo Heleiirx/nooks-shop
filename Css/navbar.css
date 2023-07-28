@@ -71,11 +71,16 @@
     align-items: center;
     justify-content: center;
     background: var(--green);
+    border: none;
 }
 .navegation__lens{
     width: 3vh;
     height: 3vh;
     fill: var(--white);
+    text-align: center;
+}
+.nav__lens{
+    font-size: 3rem;
 }
 .navegation__button{
     background: none;
@@ -116,7 +121,6 @@
         margin: 0 1rem;
     }
     .navegation__lens{
-        padding-right: .7rem;
         width: 5vh;
         height: 5vh;
     }
