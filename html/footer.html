@@ -15,12 +15,12 @@
             <h1 class="contact__title">Contactanos</h1>
             <div class="input-container">
                 <label for="nombre" class="contact__label">Nombre</label>
-                <input type="text" id="nombre" name="nombre" class="input contact__input" data-type="nombre" minlength="10" maxlength="100">
+                <input type="text" id="nombre" name="nombre" class="input contact__input" data-type="nombre" minlength="10" maxlength="100" required>
                 <span class="message--error"></span>
             </div>
             <div class="input-container">
                 <label for="mensaje" class="contact__label">Mensaje</label>
-                <input type="text" id="mensaje" name="mensaje" class="input contact__input" data-type="mensaje" minlength="30" maxlength="400">
+                <input type="text" id="mensaje" name="mensaje" class="input contact__input" data-type="mensaje" minlength="30" maxlength="400" required>
                 <span class="message--error"></span>
             </div>
             <button class="submit contact__button" type="submit">Enviar mensaje</button>
@@ -29,4 +29,5 @@
     <div class="footer__credits">
         <h1 class="footer__mensaje">Desarrollado por Itzel Romero Vargas | Jul 2023</h1>
     </div>
+    <script src="../js/validacion-inputs.js"></script>
 </footer>
