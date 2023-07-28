@@ -23,6 +23,166 @@
       "price": "9600",
       "description": "Silla de jardin rustica",
       "id": "90231bca-b426-4d4f-be99-4ef8462cc771"
+    },
+    {
+      "img": "assets/img/clo-watermelon-dress.png",
+      "category": "Ropa",
+      "item": "Vestido de sandía",
+      "price": "1500",
+      "description": "Vestido inspirado en en sencillo \"Watermelon sugar\" del famoso compositor KK Styles",
+      "id": "0e72658e-8b06-4a68-a3eb-3e4a48e63c21"
+    },
+    {
+      "img": "assets/img/furn-apple-tv.webp",
+      "category": "Muebles",
+      "item": "Televisor de manzana",
+      "price": "20600",
+      "description": "Televisor de la colección de verano de Nooks",
+      "id": "38fa0cc2-ff43-49bd-841c-a92ad05257aa"
+    },
+    {
+      "img": "assets/img/furn-garden-banking.webp",
+      "category": "Muebles",
+      "item": "Banca de járdin",
+      "price": "4400",
+      "description": "Banca de jardín hecha con madera de los bosques de islas desiertas en la zona Nooks",
+      "id": "d126df53-935b-4a0d-94b1-1db32a05e6e0"
+    },
+    {
+      "img": "assets/img/furn-garden-table.png",
+      "category": "Muebles",
+      "item": "Mesa de jardin",
+      "price": "5045",
+      "description": "Mesa de jardín que complementa nuestra colección",
+      "id": "d42eaffb-55cb-4313-91f1-61cfa3254039"
+    },
+    {
+      "img": "assets/img/clo-black-dress.webp",
+      "category": "Ropa",
+      "item": "Vestido estilo e-girl",
+      "price": "8450",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "74b8c4c2-879d-45b8-a6fc-fea73b05caa3"
+    },
+    {
+      "img": "assets/img/clo-medieval-dress.webp",
+      "category": "Ropa",
+      "item": "Vestido medieval",
+      "price": "12500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "417d98cd-d01c-451e-9871-a94799475f01"
+    },
+    {
+      "img": "assets/img/clo-nude-dress.webp",
+      "category": "Ropa",
+      "item": "Vestido estilo coquete",
+      "price": "3150",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "2b2030e0-d2f6-45dd-bed9-52426a31db30"
+    },
+    {
+      "img": "assets/img/clo-pink.webp",
+      "category": "Ropa",
+      "item": "Vestido princesa peach",
+      "price": "13400",
+      "description": "Vestido inspirado en la princesa peach de los famosos juegos de nintendo Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna ",
+      "id": "9adaabca-17cc-4a44-ae95-08969ad90bad"
+    },
+    {
+      "img": "assets/img/clo-sailormoon-dress.png",
+      "category": "Ropa",
+      "item": "Vestido Sailor Moon",
+      "price": "25000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "94943ba2-8f86-4aff-af7c-b48e6f2023ba"
+    },
+    {
+      "img": "assets/img/clo-yellow-dress.webp",
+      "category": "Ropa",
+      "item": "Vestido bailarina",
+      "price": "24050",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "603b1900-25da-4982-8872-b2f18c95de70"
+    },
+    {
+      "img": "assets/img/furn-mermaid-armchair.webp",
+      "category": "Muebles",
+      "item": "Sofá de sirena",
+      "price": "84250",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "279c84e5-2ca1-4173-a1f0-30964c6e8575"
+    },
+    {
+      "img": "assets/img/furn-mermaid-bed.webp",
+      "category": "Muebles",
+      "item": "Cama de sirena",
+      "price": "64809",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "1ce25133-f869-4cfa-ba8d-bbaac03cdb96"
+    },
+    {
+      "img": "assets/img/furn-pear-chair.png",
+      "category": "Muebles",
+      "item": "Silla de pera",
+      "price": "45069",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "ae4da38d-bce5-4df6-b543-4088e9f22183"
+    },
+    {
+      "img": "assets/img/kk-bubblegum.png",
+      "category": "Musica",
+      "item": "Sencillo bubblegum",
+      "price": "54800",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "4363bd08-e8c6-4e86-80b5-351b081238ec"
+    },
+    {
+      "img": "assets/img/kk-gangsta.png",
+      "category": "Musica",
+      "item": "Cruisin",
+      "price": "45000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "de6444e1-60fb-4917-96cf-75aaaad4ff82"
+    },
+    {
+      "img": "assets/img/kk-idol.png",
+      "category": "Musica",
+      "item": "KK Robot Synth",
+      "price": "95000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \n",
+      "id": "4a6baac2-b16f-4105-898d-6bd91f5d5752"
+    },
+    {
+      "img": "assets/img/kk-metal.webp",
+      "category": "Musica",
+      "item": "KK Metal",
+      "price": "87505",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "86807e81-5f5e-4c61-8975-86b362bd8333"
+    },
+    {
+      "img": "assets/img/kk-relax.png",
+      "category": "Musica",
+      "item": "KK Parade",
+      "price": "24550",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "8822ad20-220f-4337-9927-f1d81087465d"
+    },
+    {
+      "img": "assets/img/kk-rockability.png",
+      "category": "Musica",
+      "item": "KK Rockability",
+      "price": "45550",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "f8e2ea98-5c2d-4649-b65e-65bd1290ceb9"
+    },
+    {
+      "img": "assets/img/kk-rocking.png",
+      "category": "Musica",
+      "item": "Rocking KK",
+      "price": "88500",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "6d6ab042-dbff-4634-ac17-340a5bafb660"
     }
   ],
   "profile": [

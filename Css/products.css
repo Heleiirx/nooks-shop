@@ -39,6 +39,7 @@
     justify-content: space-around;
     box-sizing: border-box;
     width: 47vw;
+    height: 65vw;
     font-family: var(--titulos);
     align-items: center;
     text-align: center;
@@ -53,9 +54,12 @@
     border-radius: 2rem;
     width: 40vw;
     display: flex;
+    justify-content: center;
+    box-sizing: border-box;
 }
 .card__image{
-    width: 40vw;
+    width: 25vw;
+    border-radius: 2rem;
 }
 .card__title{
     font-size: 1.2rem;
@@ -64,6 +68,7 @@
 .card__price{
     font-size: .9rem;
     line-height: 1.1rem;
+    color: #F7E053;
 }
 .card__link{
     text-decoration: none;
@@ -98,17 +103,18 @@
     }
     .products__image-bg{
         height: 23vw;
-        width: 20vw;
+        width: 18vw;
         justify-content: center;
     }
     .card__image{
-        width: 25vw;
+        width: 20vw;
     }
 }
 
 @media screen and (min-width: 1024px){
     .products{
         margin: 1rem 0 0 1.2vw;
+        margin-bottom: 5vh;
     }
     .products__title{
         font-size: 2.5rem;

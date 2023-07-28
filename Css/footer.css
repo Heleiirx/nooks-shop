@@ -109,6 +109,9 @@
 }
 
 @media screen and (min-width: 1024px){
+    .footer{
+        margin-top: 10vh;
+    }
     .footer__info{
         flex-direction: row;
     }
