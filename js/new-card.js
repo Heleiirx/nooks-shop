@@ -38,3 +38,6 @@ jsonInfo.products("Musica").then(songs => {
         document.querySelector("[data-music-cards]").appendChild(newCard);
     });
 }).catch((error) => console.log(error));
+
+
+

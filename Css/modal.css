@@ -1,0 +1,42 @@
+.modal{
+    position: fixed;
+    top: 30vh;
+    left: 2rem;
+    z-index: 100;
+    align-self: center;
+    justify-self: center;
+    background-color: var(--baby-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 80vw;
+    border-radius: 3rem;
+    gap: 2rem;
+    padding-top: 25%;
+    box-shadow: 5px 5px 10px 1px var(--green);
+}
+.modal__image{
+    width: 50vw;
+    position: fixed;
+    bottom: 60vh;
+    &:hover{
+        animation: shake 2s ease 0s 1 normal forwards;
+    }
+}
+.modal__text{
+    font-family: var(--titulos);
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80vw;
+}
+.modal__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    color: black;
+    width: 55vw;
+    height: 3rem;
+    border-radius: 1.5rem;
+}

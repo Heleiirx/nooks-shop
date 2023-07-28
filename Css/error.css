@@ -1,0 +1,57 @@
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+    margin: 20vh 0;
+}
+.error__img{
+    width: 50vw;
+    &:hover{
+        animation: shake 2s ease 0s 1 normal forwards;
+    }
+}
+.error__text{
+    font-family: var(--titulos);
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80vw;
+}
+.error__link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--green);
+    color: black;
+    width: 55vw;
+    height: 3rem;
+    border-radius: 1.5rem;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-2px, 2px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}

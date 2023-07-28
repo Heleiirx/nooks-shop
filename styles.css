@@ -11,7 +11,14 @@
     
     --titulos: 'nooks', sans-serif;
 }
-
+body{
+	display: flex;
+	flex-direction: column;
+}
+main{
+	display: flex;
+	flex-direction: column;
+}
 @keyframes latido {
 	0% {
 		transform: scale(1);
