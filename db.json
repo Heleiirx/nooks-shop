@@ -183,6 +183,70 @@
       "price": "88500",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "id": "6d6ab042-dbff-4634-ac17-340a5bafb660"
+    },
+    {
+      "img": "assets/img/hs-bear.webp",
+      "category": "Property",
+      "item": "Casa Finlandia",
+      "price": "490800",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "2250ec69-ac7d-4c53-89dd-cd7767b85c20"
+    },
+    {
+      "img": "assets/img/hs-bosque.jpg",
+      "category": "Property",
+      "item": "Casa bosque",
+      "price": "348000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n",
+      "id": "db3f7002-2662-4518-beb3-c3b13e4a57a8"
+    },
+    {
+      "img": "assets/img/hs-canadá.jpg",
+      "category": "Property",
+      "item": "Casa Canadá",
+      "price": "585000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "8be5dd70-d5a4-49e2-a1e2-5726f44bd4a2"
+    },
+    {
+      "img": "assets/img/hs-mansion.webp",
+      "category": "Property",
+      "item": "Casa Londres",
+      "price": "689000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "095e9cad-1cbb-4a67-9076-a5e0d7fc2943"
+    },
+    {
+      "img": "assets/img/hs-pool.jpg",
+      "category": "Property",
+      "item": "Casa México",
+      "price": "653000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "9b92a642-cdd2-45a7-b16d-0285a53d4471"
+    },
+    {
+      "img": "assets/img/hs-secilla.webp",
+      "category": "Property",
+      "item": "Casa Estados Unidos",
+      "price": "278000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "cfa41e95-1d2b-4164-bc43-13f49d81c267"
+    },
+    {
+      "img": "assets/img/hs-simple.jpg",
+      "category": "Property",
+      "item": "Casa Suiza",
+      "price": "790000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "624f4caa-cd2e-469c-87cc-9a078864c055"
+    },
+    {
+      "img": "assets/img/hs-transilvania.jpg",
+      "category": "Property",
+      "item": "Casa Transilvania",
+      "price": "456000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "id": "bde1eb4b-3cd6-42a3-bffd-6d9e1a53abd6"
     }
   ],
   "profile": [
