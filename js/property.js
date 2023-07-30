@@ -13,7 +13,7 @@ document.querySelector("[data-botton-banner]").addEventListener("click", (event)
     </section>`;
     
     jsonInfo.products("Property").then(data => data.forEach(data => {
-        const newCard = createCard(data.item, data.price, data.img);
+        const newCard = createCard(data.item, data.price, data.img, data.id);
         document.querySelector("[data-furniture-cards]").appendChild(newCard);
     }))
     .catch(error => console.log("Ocurrio un error"))

@@ -9,7 +9,7 @@ const detailsCard = (img, title, price, description) =>{
     </div>
     <div class="productDetails__right">
         <h1 class="productDetails__title">${title}</h1>
-        <h2 class="productDetails__price">${price}</h2>
+        <h2 class="productDetails__price">${new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(price)}</h2>
         <p class="productDetails__description">${description}</p>
     </div>`;
 
