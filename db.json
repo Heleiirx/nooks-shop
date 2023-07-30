@@ -185,7 +185,7 @@
       "id": "6d6ab042-dbff-4634-ac17-340a5bafb660"
     },
     {
-      "img": "assets/img/hs-bear.webp",
+      "img": "assets/img/hs-bear.jpg",
       "category": "Property",
       "item": "Casa Finlandia",
       "price": "490800",
@@ -209,7 +209,7 @@
       "id": "8be5dd70-d5a4-49e2-a1e2-5726f44bd4a2"
     },
     {
-      "img": "assets/img/hs-mansion.webp",
+      "img": "assets/img/hs-mansion.jpg",
       "category": "Property",
       "item": "Casa Londres",
       "price": "689000",
@@ -225,9 +225,9 @@
       "id": "9b92a642-cdd2-45a7-b16d-0285a53d4471"
     },
     {
-      "img": "assets/img/hs-secilla.webp",
+      "img": "assets/img/hs-secilla.jpg",
       "category": "Property",
-      "item": "Casa Estados Unidos",
+      "item": "Casa EE UU",
       "price": "278000",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "id": "cfa41e95-1d2b-4164-bc43-13f49d81c267"
