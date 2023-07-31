@@ -5,6 +5,8 @@ body{
 .not-style{
     text-decoration: none;
     font-family: var(--titulos);
+    border: none;
+    background-color: transparent;
 }
 .input-container{
     display: flex;

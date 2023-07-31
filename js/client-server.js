@@ -3,6 +3,11 @@
 //---------------------------------------------------------------------------------------------------------------------------------------
 const products = (category) => fetch(`http://localhost:3000/product?category=${category}`).then(products => products.json());
 
+const productsLDisplay = (category) => fetch(`http://localhost:3000/product?category=${category}&_page=1&_limit=7`).then(products => products.json());
+
+const productsSDisplay = (category) => fetch(`http://localhost:3000/product?category=${category}&_page=1&_limit=4`).then(products => products.json());
+
+
 const infoProduct = (id) => fetch(`http://localhost:3000/product/${id}`).then((respuesta) => respuesta.json());
 
 const createProduct = (img, category, item, price, description) => {
@@ -72,5 +77,7 @@ export const jsonInfo = {
     deleteProduct,
     infoProduct,
     updateProduct,
-    searchProduct
+    searchProduct,
+    productsSDisplay,
+    productsLDisplay
 }

@@ -247,6 +247,54 @@
       "price": "456000",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "id": "bde1eb4b-3cd6-42a3-bffd-6d9e1a53abd6"
+    },
+    {
+      "img": "assets/img/kk-styles.jpg",
+      "category": "Musica",
+      "item": "KK Styles",
+      "price": "25000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "78d6e9b5-5e1d-4bf4-9222-30ea65fd490b"
+    },
+    {
+      "img": "assets/img/kk-romance.png",
+      "category": "Musica",
+      "item": "KK Revange",
+      "price": "75000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "86bf7098-1ba5-43c5-8eec-ad29a015dfce"
+    },
+    {
+      "img": "assets/img/kk-neverslide.jpg",
+      "category": "Musica",
+      "item": "KK NeverSlide",
+      "price": "45000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "d199c397-539e-4406-9226-342e2fc986c4"
+    },
+    {
+      "img": "assets/img/clo-frog.png",
+      "category": "Ropa",
+      "item": "Playera rana",
+      "price": "35000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "06af843b-296d-4a65-977a-eda9000a007e"
+    },
+    {
+      "img": "assets/img/clo-pompompurin.png",
+      "category": "Ropa",
+      "item": "Playera Pimpompurin",
+      "price": "65000",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "08121984-c0a7-446d-9fc5-48c537ec59d0"
+    },
+    {
+      "img": "assets/img/clo-strawberry.png",
+      "category": "Ropa",
+      "item": "Vestido fresa",
+      "price": "65050",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "id": "e0c65529-c9cc-4b1c-9aa7-c27878653ccf"
     }
   ],
   "profile": [
