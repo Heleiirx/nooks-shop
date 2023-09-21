@@ -18,17 +18,21 @@
     <body>
         <header id="header"></header>
         <main>
-            <div class="backgroundModal">
-                <div class="modal">
-                    <img src="assets/img/icon-nooksHappy.svg" alt="" class="modal__image">
-                    <h2 class="modal__text">Acción realizada con éxito</h2>
-                    <a href="index.html" class="modal__link not-style">Continuar</a>
+            <div>
+                <div class="backgroundModal" id="modalSuccess" data-modalSuccess>
+                    <div class="modal">
+                        <img src="assets/img/icon-nooksHappy.svg" alt="" class="modal__image">
+                        <h2 class="modal__text">Acción realizada con éxito</h2>
+                        <a href="index.html" class="modal__link not-style" id="closeSuccess">Continuar</a>
+                    </div>
                 </div>
-            </div>
-            <div class="modal">
-                <img src="assets/img/icon-nooksSad.svg" alt="" class="modal__image">
-                <h2 class="modal__text">Ocurrió un error, por favor intentalo más tarde</h2>
-                <a href="index.html" class="modal__link not-style">Regresar al inicio</a>
+                <div class="backgroundModal" id="modalFailure">
+                    <div class="modal">
+                        <img src="assets/img/icon-nooksSad.svg" alt="" class="modal__image">
+                        <h2 class="modal__text">Ocurrió un error, por favor intentalo más tarde</h2>
+                        <a href="index.html" class="modal__link not-style" id="closeFai">Regresar al inicio</a>
+                    </div>
+                </div>
             </div>
         </main>
         <footer id="footer"></footer>

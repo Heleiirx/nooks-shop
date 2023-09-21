@@ -1,17 +1,17 @@
 //---------------------------------------------------------------------------------------------------------------------------------------
 //----------------------------------------------Peticiones info de productos-------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------
-const products = (category) => fetch(`http://localhost:3000/product?category=${category}`).then(products => products.json());
+const products = (category) => fetch(`https://api-nooks-shop.vercel.app/product?category=${category}`).then(products => products.json());
 
-const productsLDisplay = (category) => fetch(`http://localhost:3000/product?category=${category}&_page=1&_limit=7`).then(products => products.json());
+const productsLDisplay = (category) => fetch(`https://api-nooks-shop.vercel.app/product?category=${category}&_page=1&_limit=7`).then(products => products.json());
 
-const productsSDisplay = (category) => fetch(`http://localhost:3000/product?category=${category}&_page=1&_limit=4`).then(products => products.json());
+const productsSDisplay = (category) => fetch(`https://api-nooks-shop.vercel.app/product?category=${category}&_page=1&_limit=4`).then(products => products.json());
 
 
-const infoProduct = (id) => fetch(`http://localhost:3000/product/${id}`).then((respuesta) => respuesta.json());
+const infoProduct = (id) => fetch(`https://api-nooks-shop.vercel.app/product/${id}`).then((respuesta) => respuesta.json());
 
 const createProduct = (img, category, item, price, description) => {
-    fetch(`http://localhost:3000/product`, {
+    fetch(`https://api-nooks-shop.vercel.app/product`, {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -21,14 +21,14 @@ const createProduct = (img, category, item, price, description) => {
 }
 
 const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/product/${id}`, {
+    return fetch(`https://api-nooks-shop.vercel.app/product/${id}`, {
         method: "DELETE"
     }).then(response => response.json());
 
 }
 
 const updateProduct = ( id, img, category, item, price, description ) => {
-    return fetch(`http://localhost:3000/product/${id}`, {
+    return fetch(`https://api-nooks-shop.vercel.app/product/${id}`, {
         method: "PUT",
         headers: {
             "Content-type": "application/json"
@@ -38,7 +38,7 @@ const updateProduct = ( id, img, category, item, price, description ) => {
 }
 
 const searchProduct = (product) => {
-    return fetch(`http://localhost:3000/product?q=${product}`).then(products => products.json());
+    return fetch(`https://api-nooks-shop.vercel.app/product?q=${product}`).then(products => products.json());
 }
 
 //---------------------------------------------------------------------------------------------------------------------------------------
@@ -46,7 +46,7 @@ const searchProduct = (product) => {
 //---------------------------------------------------------------------------------------------------------------------------------------
 
 const createClient = (clientName, email, password) => {
-    return fetch(`http://localhost:3000/profile`, {
+    return fetch(`https://api-nooks-shop.vercel.app/profile`, {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -56,7 +56,7 @@ const createClient = (clientName, email, password) => {
 }
 
 const createAdmin = (clientName, email, password) => {
-    return fetch(`http://localhost:3000/profile`, {
+    return fetch(`https://api-nooks-shop.vercel.app/profile`, {
         method: "POST",
         headers: {
             "Content-type": "application/json"
@@ -65,7 +65,7 @@ const createAdmin = (clientName, email, password) => {
     })
 }
 
-const clients = (email, password) => fetch(`http://localhost:3000/profile?email=${email}&password=${password}`).then(response => response.json())
+const clients = (email, password) => fetch(`https://api-nooks-shop.vercel.app/profile?email=${email}&password=${password}`).then(response => response.json())
 
 
 export const jsonInfo = {

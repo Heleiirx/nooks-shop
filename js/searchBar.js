@@ -24,6 +24,6 @@ searchForm.addEventListener("click", (event) => {
     .catch(error => console.log("Ocurrio un error"))
 })
 
-console.log()
+
 
 

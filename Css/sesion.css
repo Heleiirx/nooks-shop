@@ -13,6 +13,17 @@
     text-align: center;
     font-size: 1.7rem;
 }
+.sesion__text{
+    font-family: var(--titulos);
+    text-align: center;
+    font-size: 1rem;
+}
+.sesion__link{
+    color: var(--green);
+    &:hover{
+        text-decoration: underline;
+    }
+}
 .sesion__input{
     /* font-family: roboto, sans-serif; */
     width: 80vw;
