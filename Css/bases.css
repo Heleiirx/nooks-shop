@@ -2,11 +2,13 @@ body{
     background-color: #FAF4D2;
     overflow-x: hidden;
 }
+button.not-style{
+    background-color: transparent;
+}
 .not-style{
     text-decoration: none;
     font-family: var(--titulos);
     border: none;
-    background-color: transparent;
 }
 .input-container{
     display: flex;

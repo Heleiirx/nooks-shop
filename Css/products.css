@@ -24,7 +24,7 @@
     font-size: 2rem;
     line-height: 3rem;
 }
-a.products__link{
+button.products__link{
     color: var(--green);
     
     &:hover{

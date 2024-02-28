@@ -15,7 +15,6 @@
     margin: 1rem;
     &:hover{
         animation: latido 2s ease 0s 1 normal forwards;
-
     }
 }
 .navegation__left{
