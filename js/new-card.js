@@ -9,7 +9,7 @@ export const createCard = (item, price, img, id) => {
                     </div>
                     <h1 class="card__title">${item}</h1>
                     <h2 class="card__price">${new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(price)}</h2>
-                    <a href="../detallesProducto.html?id=${id}" class="not-style card__link">Ver producto</a>`;
+                    <a href="../nooks-shop/detallesProducto.html?id=${id}" class="not-style card__link">Ver producto</a>`;
     card.innerHTML = content;
 
     return card;
