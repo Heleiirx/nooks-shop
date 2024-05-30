@@ -13,9 +13,9 @@ document.querySelector("[data-form-session]").addEventListener("submit", async(e
     await jsonInfo.clients(email, password).then(clients => {
         
         if (clients.length != 0 && clients[0].admin==true) { //Si es admin
-            window.location.href = "../admin-products.html"
+            window.location.href = "../nooks-shop/admin-products.html"
         } else if (clients.length != 0) { // --------------  Si es usuario normal
-            window.location.href = "../index.html"
+            window.location.href = "../nooks-shop/index.html"
         } else { // --------------------------------------- Si no existe el usuario
             alert ("Correo contraseña invalidos, por favor revisalos")
         }
