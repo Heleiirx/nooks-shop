@@ -3,6 +3,15 @@
     gap: .8rem;
     position: absolute;
     left: 27vw;
+    top: 1rem;
+}
+.admin__icons--addProduct>button{
+    background-color: none;
+    border:none;
+    color: red;
+}
+.admin__icons--addProduct>a{
+    color: red;
 }
 .admin__link{
     display: flex;
@@ -25,7 +34,7 @@
 
 @media screen and (min-width: 1024px){
     .admin__icons--addProduct{
-        left: 5rem;
+        left: 2.5rem;
          top: 1rem;
 
     }
