@@ -7,8 +7,7 @@
     align-items: center;
     background-color: var(--baby-green);
     justify-content: space-between;
-    /* position: fixed;
-    z-index: 100; */
+    z-index: 100;
 }
 .navegation__image{
     height: 5vh;
