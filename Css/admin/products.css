@@ -6,7 +6,7 @@
     top: 1rem;
 }
 .admin__icons--addProduct>button{
-    background-color: none;
+    background-color: transparent;
     border:none;
     color: red;
 }
