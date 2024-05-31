@@ -5,7 +5,7 @@
     align-items: center;
     width: 100vw;
     height: 90vh;
-    margin: 5vh 0;
+    margin: 10vh 0;
 }
 .addproduct__title{
     color: var(--green);
